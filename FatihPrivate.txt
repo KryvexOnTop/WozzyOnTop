@@ -21,6 +21,8 @@ local window = library:AddWindow("Fatih Private | Muscle Legends || HI - ".. dis
     can_resize = true 
 })
 
+Local 
+
 tabs.strength.leaderstats = lp.player:WaitForChild("leaderstats")
 tabs.strength.strength = tabs.strength.leaderstats:WaitForChild("Strength")
 tabs.strength.durability = lp.player:WaitForChild("Durability")
