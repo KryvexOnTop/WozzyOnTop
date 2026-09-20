@@ -2194,7 +2194,7 @@ pets:AddSwitch("🎯 Auto Evolve Selected Pet", function(state)
                         petName
                     )
                 end)
-                task.wait(0.5)
+                task.wait(0.01)
                 if maxAttempts <= 0 then
                     autoEvolvePet = false
                     break
@@ -2602,7 +2602,7 @@ Misc:AddSwitch("⏳ Anti Afk", function(Value)
         local Title = Instance.new("TextLabel", MainFrame)
         Title.Size = UDim2.new(1, -40, 0, 40)
         Title.Position = UDim2.new(0, 15, 0, 0)
-        Title.Text = "SYNIOX | AFK"
+        Title.Text = "Fatih | AFK"
         Title.TextColor3 = Color3.fromRGB(255, 255, 255)
         Title.Font = Enum.Font.GothamBold
         Title.TextSize = 13
@@ -3191,15 +3191,15 @@ end)
 
 local credits = window:AddTab("Credits")
 
-local title = credits:AddLabel("✨ Syniox Hub V2")
+local title = credits:AddLabel("✨ Fatih Hub V2")
 title.TextColor3 = Color3.fromRGB(255, 215, 0)
 
-local dev = credits:AddLabel("👤 Developer: Yusuf")
+local dev = credits:AddLabel("👤 Developer: Fatih")
 dev.TextColor3 = Color3.fromRGB(255, 50, 50)
 
 credits:AddLabel("--------------------------")
 
-local thanks = credits:AddLabel("🤝 Special Thanks to: Halis & Henne")
+local thanks = credits:AddLabel("🤝 Special Thanks to: Halis & Henne & Ruling")
 thanks.TextColor3 = Color3.fromRGB(0, 255, 255)
 
 local support = credits:AddLabel("❤️ Thanks for the support!")
@@ -3207,7 +3207,7 @@ support.TextColor3 = Color3.fromRGB(255, 105, 180)
 
 credits:AddLabel("--------------------------")
 
-local useMsg = credits:AddLabel("🙏 Thank you for using Syniox Hub!")
+local useMsg = credits:AddLabel("🙏 Thank you for using Fatih Hub!")
 useMsg.TextColor3 = Color3.fromRGB(255, 255, 255)
 
 credits:AddLabel("👇 My Discord Server Link Here")
@@ -3219,7 +3219,7 @@ end)
 credits:AddLabel(" ")
 credits:AddLabel("==================================")
 
-local bigTitle = credits:AddLabel("🚀 SYNIOX HUB V3 🚀")
+local bigTitle = credits:AddLabel("🚀 FATİH HUB V2 🚀")
 
 pcall(function()
     bigTitle.TextSize = 25
