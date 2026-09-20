@@ -5,8 +5,8 @@ local displayName = game.Players.LocalPlayer.DisplayName
 
 local window = library:AddWindow("Fatih Private | By WozzyLaco || HELLO - ".. displayName, {
     title_bar = {
-        Color3.fromRGB(160, 0, 0), 
-        Color3.fromRGB(40, 0, 0),  
+       Color3.fromRGB(140, 40, 190), -- Biraz daha açık mor
+        Color3.fromRGB(70, 20, 100),  -- Ara geçiş tonu
         Color3.fromRGB(0, 0, 0)    
     }, 
     title_bar_transparency = 0.1, 
@@ -16,10 +16,11 @@ local window = library:AddWindow("Fatih Private | By WozzyLaco || HELLO - ".. di
         Color3.fromRGB(20, 20, 20)
     }, 
     background_transparency = 0.1, 
-    main_color = Color3.fromRGB(160, 0, 0), 
+    main_color = Color3.fromRGB(140, 40, 190), -- Ana renk
     min_size = Vector2.new(450, 330), 
     can_resize = true 
 })
+
 
 local AutoFarm = window:AddTab("Farm")
 AutoFarm:AddLabel("Tools Farm")
