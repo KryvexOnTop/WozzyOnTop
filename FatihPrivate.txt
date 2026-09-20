@@ -1861,7 +1861,7 @@ tabFarming:AddSwitch("💢 Auto Strength Farm", function(bool)
     if not bool then return end
     task.spawn(function()
         unequipAllPets()
-        task.wait(0.1)
+        task.wait(0.01)
         equipUniquePet("Swift Samurai")
         while strengthOnly do
             for i = 1, 23 do 
