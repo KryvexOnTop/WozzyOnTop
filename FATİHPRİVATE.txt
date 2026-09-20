@@ -1,4 +1,4 @@
--- This script was created by Yusuf. If you intend to use this code to "skid," know this: skids only fool themselves; using someone else's code and passing it off as your own is for idiots.
+-- This script was created by Fatih. If you intend to use this code to "skid," know this: skids only fool themselves; using someone else's code and passing it off as your own is for idiots.
 
 local library = loadstring(game:HttpGet("https://github.com/KryvexOnTop/WozzyOnTop/raw/refs/heads/main/FatihGui%20(3).txt", true))()
 local displayName = game.Players.LocalPlayer.DisplayName
@@ -1861,7 +1861,7 @@ tabFarming:AddSwitch("💢 Auto Strength Farm", function(bool)
     if not bool then return end
     task.spawn(function()
         unequipAllPets()
-        task.wait(0.1)
+        task.wait(0.01)
         equipUniquePet("Swift Samurai")
         while strengthOnly do
             for i = 1, 23 do 
@@ -1881,7 +1881,7 @@ tabFarming:AddButton("⚙️ Industrial Bar Lift", function()
         if machine and machine:FindFirstChild("interactSeat") then
             local retryCount = 0
             repeat
-                task.wait(0.2)
+                task.wait(0.01)
                 pressE()
                 retryCount = retryCount + 1
             until (player.Character and player.Character.Humanoid.Sit) or retryCount > 10
@@ -1898,7 +1898,7 @@ tabFarming:AddButton("🦵 Industrial Squat", function()
         if machine and machine:FindFirstChild("interactSeat") then
             local retryCount = 0
             repeat
-                task.wait(0.2)
+                task.wait(0.01)
                 pressE()
                 retryCount = retryCount + 1
             until (player.Character and player.Character.Humanoid.Sit) or retryCount > 10
@@ -2601,7 +2601,7 @@ Misc:AddSwitch("⏳ Anti Afk", function(Value)
         local Title = Instance.new("TextLabel", MainFrame)
         Title.Size = UDim2.new(1, -40, 0, 40)
         Title.Position = UDim2.new(0, 15, 0, 0)
-        Title.Text = "SYNIOX | AFK"
+        Title.Text = "FATİH | AFK"
         Title.TextColor3 = Color3.fromRGB(255, 255, 255)
         Title.Font = Enum.Font.GothamBold
         Title.TextSize = 13
@@ -3193,7 +3193,7 @@ local credits = window:AddTab("Credits")
 local title = credits:AddLabel("✨ Syniox Hub V2")
 title.TextColor3 = Color3.fromRGB(255, 215, 0)
 
-local dev = credits:AddLabel("👤 Developer: Yusuf")
+local dev = credits:AddLabel("👤 Developer: FATİH")
 dev.TextColor3 = Color3.fromRGB(255, 50, 50)
 
 credits:AddLabel("--------------------------")
@@ -3218,7 +3218,7 @@ end)
 credits:AddLabel(" ")
 credits:AddLabel("==================================")
 
-local bigTitle = credits:AddLabel("🚀 SYNIOX HUB V3 🚀")
+local bigTitle = credits:AddLabel("🚀 FATİH HUB V2 🚀")
 
 pcall(function()
     bigTitle.TextSize = 25
