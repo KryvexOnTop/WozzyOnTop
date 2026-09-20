@@ -636,8 +636,6 @@ local autoEggSwitch = rebirths:AddSwitch("🥚 Auto Eat Egg 30 Min", function(st
     end
 end)
 
-local Players = game:GetService("Players")
-local LocalPlayer = Players.LocalPlayer
 Tabs.Killing:AddLabel("Kill :")
 
 local KillAura = {
