@@ -59,9 +59,9 @@ deleteBodyMovementScript()
 services.muscleEvent = lp.player:WaitForChild("muscleEvent")
 
 local library = loadstring(game:HttpGet("https://github.com/KryvexOnTop/WozzyOnTop/raw/refs/heads/main/FatihGui%20(3).txt"))()
-local silence = library:AddWindow("Silence | Fast Farming - Hey, " .. lp.displayname .. "!", {
-    main_color = Color3.fromRGB(138, 0, 0),
-    min_size = Vector2.new(500, 500),
+local silence = library:AddWindow("Fatih Private | By Wozzy | - Hey, " .. lp.displayname .. "!", {
+    main_color = Color3.fromRGB(100, 0, 150),
+    min_size = Vector2.new(500, 370),
     can_resize = false
 })
 
