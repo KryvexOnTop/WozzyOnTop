@@ -60,8 +60,8 @@ services.muscleEvent = lp.player:WaitForChild("muscleEvent")
 
 local library = loadstring(game:HttpGet("https://github.com/KryvexOnTop/WozzyOnTop/raw/refs/heads/main/FatihGui%20(3).txt"))()
 local silence = library:AddWindow("Fatih Private | By WozzyLaco |  - HELLO, " .. lp.displayname .. "!", {
-    main_color = Color3.fromRGB(138, 0, 0),
-    min_size = Vector2.new(500, 500),
+    main_color = Color3.fromRGB(128, 0, 128),
+    min_size = Vector2.new(500, 370),
     can_resize = false
 })
 
